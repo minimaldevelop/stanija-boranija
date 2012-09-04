@@ -1,4 +1,5 @@
 stanija-boranija
 ================
 
-chrome extensions to remove stania
+chrome extensions to remove Stanija.
+inspired by "Shaved Bieber"

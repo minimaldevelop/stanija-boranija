@@ -1,0 +1,14 @@
+﻿{
+  "name": "Stanija-Boranija",
+  "version": "0.1",
+  "manifest_version": 2,
+  "icons": {	"48": "logo.jpg",  
+				"128": "logo.jpg"},
+  "description": "Dosadile su vam vesti o čuvenoj starleti? Želite da se hranite zdravo? Stanija-Boranija dodatak za google chrome je tu da pomogne.",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["replace.js"]
+    }
+  ]
+}
